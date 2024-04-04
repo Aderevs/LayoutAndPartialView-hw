@@ -27,9 +27,25 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div @* class="container" *@ class="all-content">
+        <span class="submenu">
+            <ul>
+                <li>
+                    <a asp-action="Menu1">Menu 1</a>
+                </li>
+                <li>
+                    <a asp-action="Menu2">Menu 2</a>
+                </li>
+                <li>
+                    <a asp-action="Menu3">Menu 3</a>
+                </li>
+
+            </ul>
+        </span>
         <main role="main" class="pb-3">
-            @RenderBody()
+            <span class="main-content">
+                @RenderBody()
+            </span>
         </main>
     </div>
 @* 

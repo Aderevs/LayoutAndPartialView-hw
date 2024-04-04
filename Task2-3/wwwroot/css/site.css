@@ -20,3 +20,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.submenu{
+    margin-right:10px;
+    width: auto;
+}
+
+.all-content {
+    display: flex;
+    align-items:center
+}
